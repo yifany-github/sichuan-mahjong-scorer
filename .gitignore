@@ -322,3 +322,4 @@ cache/
 # 临时目录
 tmp/
 temp/ 
+.DS_Store
