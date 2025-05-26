@@ -36,18 +36,18 @@
 ### 💻 直接下载运行（推荐）
 
 #### Windows用户
-1. 下载 [四川麻将积分系统.exe](https://github.com/yourusername/sichuan-mahjong-scorer/releases)
+1. 下载 [四川麻将积分系统.exe](https://github.com/yifany-github/sichuan-mahjong-scorer/releases)
 2. 双击运行即可，无需安装Python
 
 #### macOS用户
-1. 下载 [四川麻将积分系统.app](https://github.com/yourusername/sichuan-mahjong-scorer/releases)
+1. 下载 [四川麻将积分系统.app](https://github.com/yifany-github/sichuan-mahjong-scorer/releases)
 2. 双击运行，如遇安全警告请在系统偏好设置中允许
 
 ### 🐍 从源码运行
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/sichuan-mahjong-scorer.git
+git clone https://github.com/yifany-github/sichuan-mahjong-scorer.git
 cd sichuan-mahjong-scorer
 
 # 安装依赖（可选）
@@ -108,7 +108,7 @@ python majiang_macos_compatible.py
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/sichuan-mahjong-scorer.git
+git clone https://github.com/yifany-github/sichuan-mahjong-scorer.git
 cd sichuan-mahjong-scorer
 
 # 创建虚拟环境（推荐）
@@ -200,9 +200,8 @@ sichuan-mahjong-scorer/
 
 ## 📞 联系方式
 
-- 项目主页：[GitHub](https://github.com/yourusername/sichuan-mahjong-scorer)
-- 问题反馈：[Issues](https://github.com/yourusername/sichuan-mahjong-scorer/issues)
-- 邮箱：your.email@example.com
+- 项目主页：[GitHub](https://github.com/yifany-github/sichuan-mahjong-scorer)
+- 问题反馈：[Issues](https://github.com/yifany-github/sichuan-mahjong-scorer/issues)
 
 ---
 
