@@ -1,0 +1,10 @@
+# 四川麻将积分系统依赖包
+# 基础GUI库（通常随Python安装）
+# tkinter - 内置库，无需安装
+
+# 打包工具
+pyinstaller>=5.0
+auto-py-to-exe>=2.20.0
+
+# 可选：如果需要更好的图标支持
+pillow>=9.0.0 
