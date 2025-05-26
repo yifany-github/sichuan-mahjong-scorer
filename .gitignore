@@ -1,0 +1,324 @@
+# 🀄 四川麻将积分系统 - Git忽略文件
+
+# ===== Python相关 =====
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C扩展
+*.so
+
+# 分发/打包
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller相关
+# 通常这些文件由脚本写入；如果你使用PyInstaller来创建
+# 单文件可执行文件，这些文件应该被忽略，因为Python脚本
+# 将在运行时重新生成它们
+*.manifest
+*.spec
+
+# 安装器日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 单元测试/覆盖率报告
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# 翻译
+*.mo
+*.pot
+
+# Django相关
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask相关
+instance/
+.webassets-cache
+
+# Scrapy相关
+.scrapy
+
+# Sphinx文档
+docs/_build/
+
+# PyBuilder相关
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+# 对于使用pyenv的库，建议在此处包含.python-version
+.python-version
+
+# pipenv
+# 根据官方建议，Pipfile.lock应该包含在版本控制中
+# 但是，如果你有一个通用的Pipfile.lock，你可能想要编辑以下行
+Pipfile.lock
+
+# poetry
+# 类似于Pipfile.lock，通常建议包含poetry.lock在版本控制中
+# 这在这里主要是为了较低级别的库。如果你的包意图作为库使用，
+# 建议不要忽略这些文件，因为代码意图作为库运行
+poetry.lock
+
+# pdm
+# 类似于Pipfile.lock，通常建议包含pdm.lock在版本控制中
+pdm.lock
+# pdm将项目范围的Python解释器存储在__pypackages__中
+# 建议不要将其检入版本控制
+__pypackages__/
+
+# Celery相关
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath解析文件
+*.sage.py
+
+# 环境变量
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder项目设置
+.spyderproject
+.spyproject
+
+# Rope项目设置
+.ropeproject
+
+# mkdocs文档
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre类型检查器
+.pyre/
+
+# pytype静态类型分析器
+.pytype/
+
+# Cython调试符号
+cython_debug/
+
+# ===== 操作系统相关 =====
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== IDE/编辑器相关 =====
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+.history/
+*.vsix
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+[._]*.s[a-v][a-z]
+!*.svg
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+*~
+tags
+[._]*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== 项目特定文件 =====
+# 麻将积分数据文件
+mahjong_scores.json
+*.json.bak
+
+# 导出的结果文件
+mahjong_results_*.txt
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# 配置文件（如果包含敏感信息）
+config.ini
+settings.ini
+
+# ===== 打包相关 =====
+# PyInstaller构建文件
+build/
+dist/
+*.spec
+
+# 自动生成的spec文件（保留自定义的spec文件）
+四川麻将积分系统.spec
+!build_windows.spec
+!build_macos.spec
+
+# UPX压缩工具
+upx.exe
+
+# 打包脚本生成的临时文件
+*.exe.manifest
+
+# ===== 测试相关 =====
+# 测试数据
+test_data/
+test_*.json
+
+# 性能测试结果
+benchmark_results/
+
+# ===== 文档相关 =====
+# 自动生成的文档
+docs/build/
+docs/_build/
+
+# ===== 其他 =====
+# 备份文件
+*.backup
+*.old
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# 但是保留发布用的压缩文件（如果需要的话）
+# !release/*.zip
+# !release/*.tar.gz
+
+# 密钥文件
+*.key
+*.pem
+*.p12
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 缓存目录
+.cache/
+cache/
+
+# 临时目录
+tmp/
+temp/ 
